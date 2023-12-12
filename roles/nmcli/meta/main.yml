@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Michael Wadman
+  description: Manages network devices on systems using NetworkManager nmcli.
+  license: "MIT"
+  min_ansible_version: "2.15"
+  galaxy_tags:
+    - "linux"
+  platforms:
+    - name: GenericLinux
+      versions:
+        - all
+dependencies: []

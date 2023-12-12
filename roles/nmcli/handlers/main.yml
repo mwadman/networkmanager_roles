@@ -1,0 +1,5 @@
+---
+- name: Restart NetworkManager
+  ansible.builtin.service:
+    name: "NetworkManager"
+    state: "restarted" # Reloaded doesn't apply changes to already active interfaces
